@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method = "POST">
+        <fieldset>
+            <h1>글 작성하기</h1>
+            <table>
+                <tr>
+                    <td><label for="user">작성자</label></td>
+                    <td><input id="user" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="id">아이디</label></td>
+                    <td><input id="id" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">이메일</label></td>
+                    <td colspan="2"><input id="mail1" type="email" />@
+                    <input id="mail2" type="email" /></td>
+                </tr>
+                <tr><span>
+                    <td><label for="phone">휴대폰</label></td>
+                    <td colspan = "3"><select>
+                        <optgroup>
+                            <option>010</option>
+                            <option>011</option>
+                        </optgroup>
+                    </select>
+                     - <input id="phone1" type="text" />
+                     - <input id="phone2" type="text" /></td>
+                </span></tr>
+                <tr>
+                    <td><label for="name">글제목</label></td>
+                    <td><input id="name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="txt">내용</label></td>
+                    <td><textarea name="txt" rows="10" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
